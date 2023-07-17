@@ -1,0 +1,20 @@
+.main-banner{
+  background-size: cover;
+  background-position: center;
+  background-image: url("../imagens/mainbanner.png");
+  padding: 10rem 0;
+}
+.main-banner h1,
+.main-banner p {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  text-shadow:3px 2px 3px #000 ;
+}
+
+.main-banner h1{
+  font-size: 54px;
+}
+.main-banner p{
+  font-size: 24px;
+}

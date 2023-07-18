@@ -44,3 +44,9 @@ nav{
   background-color: #22bb5f;
   color: #FFF;
 }
+@media (max-width: 768px){
+  .navbar-items li{
+    font-size: 12px;
+    margin-left: 10px;
+  }
+}

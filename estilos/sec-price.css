@@ -1,0 +1,73 @@
+.price-container{
+  padding-bottom: 5rem;
+  text-align: center;
+}
+.price-container h2{
+  font-size: 36px;
+}
+.price-container p{
+  font-size: 20px;
+}
+.plans-container{
+  padding: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+@media(max-width: 768px){
+  .plans-container{
+    flex-direction: column;
+  }
+}
+.plan{
+  flex: 1;
+  margin: 0 20px;
+}
+.plan ul {
+  padding: 0;
+}
+.plan li{
+  list-style: none;
+  height: 50px;
+  line-height: 50px;
+  background-color: #e8e9ea;
+  color: #333;
+  border-radius: 3px;
+}
+@media (max-width: 768px){
+  .plan{
+    margin-bottom: 70px;
+  }
+}
+.plan .price{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #2cc762;
+  color: white;
+  text-align: center;
+  line-height: 120px;
+  margin: 0 auto -50px;
+  font-size: 18px;
+  position: relative;
+}
+.plan .plan-name{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFF;
+  background-color:#202b34;
+  padding: 50px 0;
+}
+.plan .plan-btn{
+  background-color: #2cc762;
+  color: #FFF;
+  font-size: 24px;
+  height: 75px;
+  line-height: 75px;
+  cursor: pointer;
+}
+.plan .recommended {
+  background-color: #f45c57;
+}
